@@ -1,4 +1,4 @@
-const User = require("../../models/User");
+const User = require("../../models/user");
 const bcrypt = require('bcryptjs');
 
 const postRegister = async (req, res) => {
@@ -35,7 +35,7 @@ const postRegister = async (req, res) => {
             }
         })
     } catch (err) {
-        return res.status(500).send('Error occurred. Please try again.');
+        return res.status(500).send(err);
     }
 };
 
