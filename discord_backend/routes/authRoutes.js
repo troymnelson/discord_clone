@@ -23,5 +23,5 @@ router.post('/login', validator.body(loginSchema), authControllers.controllers.p
 router.get('/test', auth, (req, res) => {
     res.send('working');
 });
-
+ 
 module.exports = router;
