@@ -50,4 +50,4 @@ const InputWithLabel = (props) => {
     )
 };
 
-export default LoginWithInput;
+export default InputWithLabel;
