@@ -3,9 +3,9 @@ import AuthBox from '../../shared/components/AuthBox';
 
 const RegisterPage = () => {
     return (
-        <div>
-            <p>Register Page</p>
-        </div>
+        <AuthBox>
+            <p>Register Page.</p>
+        </AuthBox>
     )
 };
 
